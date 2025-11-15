@@ -8,7 +8,6 @@ import Dashboard from './pages/home/views/Dashboard';
 import Register from './pages/auth/views/Register';
 import ResetPassword from './pages/auth/views/ResetPassword';
 import VerifyEmail from './pages/auth/views/VerifyEmail';
-import APITester from './pages/auth/components/test';
 
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/reset-password" element={<ResetPassword />} />
             <Route path="/verify-email" element={<VerifyEmail />} />
-            <Route path="/api-tester" element={<APITester />} />
 
             {/* Protected Routes */}
             <Route
